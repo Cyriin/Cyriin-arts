@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #666;
+  text-align: center;         		 /* Text innerhalb von Elementen mittig */
+
+
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 5;
+}
+
+nav ul.centered {
+  list-style: none;                     /* Entfernt die Standard-Aufzählungszeichen (z. B. Punkte oder Zahlen) */
+  list-style-position: inside;         /*list-style-position: outside;         /* Marker würden außerhalb des Textblocks stehen – hier aber irrelevant, da list-style:none */
+  text-align: center;                   /* Zentriert den Text innerhalb der Listenelemente */
+  padding: 1;                           /*padding: 0;                           /* Entfernt die Standard-Einrückung von <ul>, damit die Liste bündig beginnt */
+  display: flex;                        /* Wandelt die Liste in ein Flexbox-Container um, sodass die <li>-Elemente nebeneinander stehen */
+  gap: 1rem;                            /* Fügt gleichmäßigen Abstand (1rem ≈ Schriftgröße) zwischen den Listenelementen ein */
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  background: #fff;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+}
+
